@@ -1,0 +1,124 @@
+@charset "utf-8";
+#reg{width:1100px;margin:10px auto 0;}
+#reg .reg-con{width:1100px;margin:0 auto;}
+#reg .reg-con .reg_lt{width:360px;margin: 40px 0px 0px 30px;float:left;}
+/******注册左上****/
+#reg .reg-con .reg_lt .reg_ltt{width:360px;line-height:40px;font-size:13px;}
+.reg-con .reg_lt .reg_ltt .reg_int1{width:103px;height:29px;color:#fff;font-size:16px;line-height: 29px;margin: 8px 0px 0px 10px;cursor: pointer;border:none;background:url(../images/reg/NEWS_login.png) no-repeat -347px -211px;}
+
+/******注册左下****/
+.reg_xtt{width:430px;height:97px;float:left;margin-top: 8px;margin-left: -7px;position: relative;}
+.reg_xtt .reg_xx{position: absolute;bottom:35px;left:5px;}
+.reg_xtt .reg_xx #reg_int2{width:250px;height:25px;border: 1px solid #DDD;font-size:14px;color: #666;}
+.reg_xtt .reg_xx #btn1{display: block;width:70px;height:22px;background:url(../images/reg/footer00.png) no-repeat;float:right;border:none;margin: 2px 8px;cursor: pointer;}
+
+
+/*******注册右********/
+.reg_r{height:500px;border-left: 1px dashed #DDD;margin: 30px 0px 0px 50px;padding-left: 50px;float:left;}
+
+/*******注册右上******/
+.reg_r .reg_rt{width:609px;border-bottom: 1px dashed #DDD;height: 120px;line-height: 50px;}
+.reg_r .reg_rt .reg_num{width:22px;height:22px;color:#fff;float:left;text-align: center;line-height: 22px;margin: 13px 0px 0px;background:url(../images/reg/NEWS_login.png)no-repeat 0 -326px;}
+.reg_r .reg_rt .reg_num2{margin-left: 8px;line-height: 50px;float: left;font-size:12px;}
+.reg_r .reg_rt .reg_num3{width:316px;margin: 8px 0px 0px;float:left;}
+
+.reg_r .reg_rt .reg_num3 .reg_num_a1{width:135px;height:38px;display: block;line-height: 32px;float: left;text-align: center;font-size: 14px;margin-left: 10px;border-radius: 5px;background:#e3e1e0;color:#393939;cursor: pointer;}
+.reg_r .reg_rt .reg_num3 .reg_num_a2{width:135px;height:38px;display: block;line-height: 32px;float: left;text-align: center;font-size: 14px;margin-left: 10px;background:#e3e1e0;border-radius: 5px;color:#393939;cursor: pointer;}
+.reg_r .reg_rt .reg_num3 div.reg_ashow{color:#fff;background:#be0929!important;}
+
+
+/*******注册右中********/
+.reg_rz{position: relative;margin: 20px 0px 0px;}
+.reg_rz .reg_li{display: none;position: absolute;z-index: 99;top: 90px;}
+.reg_rz .reg_n1{width: 22px;height: 22px;color: #FFF;float: left;text-align: center;line-height: 22px;margin: 13px 0px 0px;background: url(../images/reg/NEWS_login.png)no-repeat 0 -326px;}
+.reg_rz .reg_n2{margin-left:8px;line-height: 50px;font-size:12px;float:left;}
+
+/******注册表单手机注册********/
+.reg_rz .reg_n3{display: none;}
+.reg_rz .reg_n3.reg_dshow{display: block!important;}
+.reg_rz .reg_n3 .reg_n3_ul{width: 580px;}
+.reg_rz .reg_n3 .reg_n3_ul li{width: 580px;line-height: 33px;float: left;margin-bottom: 10px;}
+.reg_rz .reg_n3 .reg_n3_ul li .reg_list_shi{text-align: right;float: left;color: #BF0000;font-size:12px;;}
+
+/*******手机号********/
+.reg_rz .reg_n3 .reg_n3_ul li .reg_n3_w{width: 115px;text-align: right;float: left;color: #393939;font-size:12px;}
+.reg_rz .reg_n3 .reg_n3_ul li .reg_n3_int1{width: 210px;height: 33px;border: medium none;float: left;text-indent: 5px;line-height: 33px;background:url(../images/reg/shopping_login.png)no-repeat 0 -182px;}
+.reg_rz .reg_n3 .reg_n3_ul li .reg_n3_int2{width: 116px;height: 26px;line-height: 26px;text-align: center;margin: 3px 0px 0px 5px;color: #7B7B7B;border: medium none;border-radius: 5px;}
+/******手机号下面的文字*******/
+.reg_rz .reg_n3 .reg_n3_ul li .reg_n3_li2{float:left;color: #7B7B7B;text-indent: 115px;width: 600px;font-size:12px;}
+.reg_rz .reg_n3 .reg_n3_ul li .reg_n3_li2 a{color: #BF0000;}
+
+/*****验证码*******/
+.reg_rz .reg_n3 .reg_n3_ul li .reg_n3_li3{width: 115px;text-align: right;float: left;color: #393939;font-size:12px;}
+.reg_rz .reg_n3 .reg_n3_ul li .reg_n3_yan{width: 210px;height: 33px;border: medium none;float: left;text-indent: 5px;line-height: 33px;background:url(../images/reg/shopping_login.png)no-repeat 0 -182px;}
+
+/********密码*********/
+.reg_rz .reg_n3 .reg_n3_ul li .reg_n3_li4{width: 115px;text-align: right;float: left;color: #393939;font-size:12px;}
+.reg_rz .reg_n3 .reg_n3_ul li .reg_n4_pssd{width: 210px;height: 33px;border: medium none;float: left;text-indent: 5px;line-height: 33px;background:url(../images/reg/shopping_login.png)no-repeat 0 -182px;}
+
+.reg_rz .reg_n3 .reg_n3_ul li .reg_n3_m{float: left;color: #7B7B7B;text-indent: 115px;width: 600px;font-size:12px;margin-top:-10px;}
+
+/*******确认密码******/
+.reg_rz .reg_n3 .reg_n3_ul li .reg_n3_li5{width: 115px;text-align: right;float: left;color: #393939;font-size:12px;}
+.reg_rz .reg_n3 .reg_n3_ul li .reg_n5_pssd{width: 210px;height: 33px;border: medium none;float: left;text-indent: 5px;line-height: 33px;background:url(../images/reg/shopping_login.png)no-repeat 0 -182px;}
+
+/****协议******/
+.reg_rz .reg_n3 .reg_n3_ul li .reg_n3_li6{float: left;color: #393939;text-indent: 115px;font-size: 16px;margin-top: 10px;margin-top:-4px;}
+.reg_rz .reg_n3 .reg_n3_ul li .reg_n3_li6 a{color: #BF0000;}
+
+/*****同意协议******/
+.reg_rz .reg_n3 .reg_n3_ul li .reg_n3_sub{width: 171px;height: 43px;border: medium none;font-size: 18px;color: #FFF;margin: 10px 0px 0px 120px;cursor: pointer;background:url(../images/reg/NEWS_login.png)no-repeat 0 -51px;}
+
+
+/*****邮箱验证码*****/
+.reg_rz .reg_n3 .reg_n3_ul li .reg_n3_yy{width: 115px;text-align: right;float: left;color: #393939;font-size:12px;}
+.reg_rz .reg_n3 .reg_n3_ul li .reg_yy_int1{height: 30px;width:117px;border: 1px solid #DEDEDE;float:left}
+.reg_rz .reg_n3 .reg_n3_ul li .reg_n3_ym{width:86px;height:31px;background: black;float:left;margin-left:5px;color:#fff;font-size:18px;line-height: 31px;text-align: center;cursor: pointer;float:left}
+
+.reg_rz .reg_n3 .reg_n3_ul li .reg_p{position:absolute;float:right;display: block;left:302px;top:370px;color:green;font-size:12px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

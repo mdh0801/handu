@@ -1,0 +1,110 @@
+@charset "utf-8";
+/******logo*******/
+.cart_header{overflow: hidden;margin: 30px auto 10px;width: 1200px;height: auto;}
+.cart_header .cart_logo{width: 414px;height: 44px;float: left;background:url(../images/shopp/cart_img.png)no-repeat -15px -17px;}
+.cart_header .cart_sept{margin: 15px 2px 0px;width: 700px;height: 31px;background:url(../images/shopp/cart_img.png)no-repeat -15px -89px;float:right}
+
+/****购物车具体详情*****/
+.warp{width: 1200px;height: auto;margin: 0px auto;overflow: hidden;padding: 5px 0px;font-size:12px;}
+/****提示部分****/
+.warp .warm_tip{margin-bottom: -8px;width: 429px;height: 28px;text-indent: 7px;line-height: 25px;background:url(../images/shopp/warm.png)no-repeat}
+.warp .warm_tip em{color:#FE0032;font-weight: 500;}
+ .warp .warm_tip a{color:#FE0032;}
+/******具体详细部分*****/
+.shopping_nr{width: 1198px;float: left;margin: 10px 0px 0px;padding: 0px 0px 10px;}
+/***标题****/
+.shopping_nr .shopp_title{width: 1198px;height: 36px;line-height: 36px;background:url(../images/shopp/cartbar2.png)no-repeat;float:left;}
+.shopping_nr .shopp_title .shop_qx{float: left;text-align: center;font-size: 13px;}
+
+/****cookie部分*****/
+#cartList{background:#FCFCFC;width: 99.9%;min-height: 199px;border:1px solid #D9D8D8;}
+#cartList #cartList h3{width: 98.2%;float: left;height: 40px;line-height: 55px;font-size: 14px;padding-left: 20px;background:#fff;color: #333;}
+#cartList #brand_cart{margin-bottom: 20px;padding: 0px;overflow: hidden;float: left;width: 100%;}
+/**左1****/
+#cartList #rec_6953 .cbj_shop1{width: 367px;height: 138px;;margin-left: 15px;padding-bottom: 10px;text-align: left;background:url(../images/shopp/shopping_car_bg.png)no-repeat right center;float:left;}
+#cartList #rec_6953 .cbj_shop1 .shop_pic{float: left;width: 112px;height: auto;border: 1px solid #DDD;margin: 10px 0px 0px;}
+#cartList #rec_6953 .cbj_shop1 .shop_pic img{width:100%;}
+#cartList #rec_6953 .cbj_shop1 .shop_name{margin: 40px 0px 0px 10px;float: left;display: inline;width: 243px;overflow: hidden;font-size: 14px;color: #565656;}
+#cartList #rec_6953 .cbj_shop1 .shop_size{width: 243px;height: 18px;margin: 10px 0px 0px 10px;float: left;}
+
+/****左2******/
+#cartList #rec_6953 .cbj_shop2{width: 132px;float: left;text-align: center;height: 132px;font-size: 12px;background: url(../images/shopp/shopping_car_bg.png)no-repeat right center;;}
+#cartList #rec_6953 .cbj_shop2 .corice{line-height: 20px;padding: 50px 0px;}
+#cartList #rec_6953 .cbj_shop2 .corice del{color: #999;}
+#cartList #rec_6953 .cbj_shop2 .corice span{font-size:14px;}
+
+/***左3**/
+#cartList #rec_6953 .cbj_shop3{width: 132px;float: left;text-align: center;height: 132px;font-size: 12px;background: url(../images/shopp/shopping_car_bg.png)no-repeat right center;}
+#cartList #J_AmWeight{position: relative;display: inline-block;margin: 51px 0px;}
+#cartList #J_AmWeight .increase{right: -20px;width: 12px;height: 12px;float: left;line-height: 12px;text-align: center;overflow: hidden;border: 1px solid #A7A6AB;position: absolute;margin: 7px 0px;cursor: pointer;}
+#cartList #J_AmWeight .decrease{left: -20px;width: 12px;height: 12px;float: left;line-height: 12px;text-align: center;overflow: hidden;border: 1px solid #A7A6AB;position: absolute;margin: 7px 0px;cursor: pointer;}
+#cartList #J_AmWeight .text{width: 36px;height: 20px;line-height: 20px;margin-top: 3px;text-align: center;border: 1px solid #CCC;color: #444;}
+
+/****左4****/
+#cartList #rec_6953 .cbj_shop4{width: 122px;font-size: 14px;color: #BF0000;line-height: 132px;float: left;text-align: center;height: 132px;background: url(../images/shopp/shopping_car_bg.png)no-repeat right center;}
+
+/***左5***/
+#cartList #rec_6953 .cbj_shop5{width: 134px;font-size: 12px;float: left;text-align: center;height: 132px;background: url(../images/shopp/shopping_car_bg.png)no-repeat right center;}
+#cartList #rec_6953 .cbj_shop5 .middle{padding: 50px 0px;}
+#cartList #rec_6953 .cbj_shop5 .middle a{color: #565656;}
+
+/***左6**/
+#cartList #rec_6953 .cbj_shop6{width: 184px;float: left;text-align: center;height: 132px;font-size: 12px;background: url(../images/shopp/shopping_car_bg.png)no-repeat right center;}
+#cartList #rec_6953 .cbj_shop6 .middle{padding: 40px 10px 0px;}
+
+
+/***总计部分*****/
+.shopp_buttom{width: 1196px;min-height: 100px;}
+.shopp_buttom .shopp_butring{float: right;margin-right: -124px;height: auto;width: 300px;}
+.shopp_buttom .shopp_butring .shopp_accum{margin: 10px 0px;}
+.shopp_buttom .shopp_butring .shopp_accum table{border:none;}
+.shopp_buttom .shopp_butring .shopp_accum table tr{border:none;}
+.shopp_buttom .shopp_butring .shopp_accum table tr .td_len1{width:60px;}
+.shopp_buttom .shopp_butring .shopp_accum table td{border:none;text-align: right;}
+
+/***价格总计***/
+.car_btncg{width: 1196px;min-height: 45px;height: auto;line-height: 26px;background:#FDFDFD;border:1px solid #ddd;}
+.car_btncg .car_tr{float: right;margin-right: 10px;height: auto;width: 300px;}
+.car_btncg .car_tr .car_span1{line-height: 50px;font-size:14px;margin-left:129px;}
+.car_btncg .car_tr .car_span2{min-width: 75px;display: inline-block;text-align: right;font-size:18px;color: #BF0000;margin-left:-20px;}
+
+
+/*****继续购物*****/
+.cary_jg
+.cary_btn{float:left;margin-right: 10px;margin-top: 12px;width: 119px;height: 36px;background:url(../images/shopp/cart_img.png)no-repeat -16px -747px;}
+.cary_btn2{float:right;margin-top: 12px;position: relative;width: 157px;height: 36px;background:url(../images/shopp/cart_img.png)no-repeat -16px -361px;margin-right:-309px;}
+
+
+/****删除部分****/
+.delete{width: 100%;height: auto;overflow: hidden;padding-top: 20px;margin: 30px 0px;display: none;}
+.delete #show_del{display: block;border-bottom: 1px solid #DDD;padding-bottom: 5px;font-weight: 500;font-size:14px;}
+#del_107{padding: 4px 0px;width: 100%;border-bottom: 1px solid #DDD;height:52px;}
+/***左1****/
+#del_107 .del_div1{width: 52px;float: left;height: 52px;line-height: 52px;}
+#del_107 .del_div1 img{width:100%;}
+/***左2****/
+#del_107 .del_div2{width:576px;float:left;height:52px;line-height: 52px;}
+#del_107 .del_div2 p{height: 24px;line-height: 24px;display: block;margin-left:5px;}
+/**左3***/
+#del_107 .del_div3{width:156px;height:52px;float: left;line-height: 52px;}
+/***左4***/
+#del_107 .del_div4{width:276px;height:52px;float:left;line-height: 52px;}
+/***左5***/
+#del_107 .del_div5{width:95px;height:52px;line-height: 52px;float: left;}
+#del_107 .del_div5 #del_spanc{margin-right:5px;cursor: pointer;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

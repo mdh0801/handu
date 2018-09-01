@@ -1,0 +1,87 @@
+@charset "utf-8";
+/******登录部分**********/
+#ent-con{width: 1100px;margin: 20px auto 0px;margin: 0px auto;}
+/******登录左侧*******/
+#ent-con .ent_l{width: 420px;margin: 40px 40px 0px 0px;float: left;}
+#ent-con .ent_l .ent_img{padding-top: 25px;font-size: 12px;}
+
+/******登录右侧********/
+.ent_r{float: left;width: 527px;border-left: 1px dashed #DDD;padding-left: 80px;color: #000;}
+/*****登录右上*****/
+.ent_r .ent_form{margin-top: 25px;width: 300px;padding: 20px 40px;box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.4);border: 1px solid #EEE;opacity: 0.95;}
+/****表头******/
+.ent_r .ent_form h1{width: 100%;height: 30px;font-size: 19px;border-bottom: 1px solid #EEE;color: #666;}
+/**********/
+.ent_r .ent_form form .news_d{margin-top: 40px}
+
+/******用户名******/
+.ent_r .ent_form .news_d .news_ul li{width: 300px;height:35px;margin: 10px 0px 0px;}
+.ent_r .ent_form .news_d .news_ul li .news_name{font-size: 14px;width: 75px;text-align: right;color: #393939;line-height: 33px;float:left;} 
+.ent_r .ent_form .news_d .news_ul li .ent_ript{width: 207px;height: 33px;line-height: 33px;float: left;color: #000;}
+
+/*****验证码表单*****/
+.ent_r .ent_form .news_d .news_ul li #entr_int3{width: 120px;height: 30px;}
+.ent_r .ent_form .news_d .news_ul li .entr_ym{width:86px;height:31px;background:black;float:right;color:#fff;font-size:18px;line-height: 31px;text-align: center;cursor: pointer;}
+
+/******立即登录******/
+.ent_r .ent_form .news_d .news_ul li #mesare{color: #C80A28;margin: 10px 0px;width: 100%;text-align: left;font-size: 12px;float: left;}
+.ent_r .ent_form .news_d .news_ul li span{float: left;font-size: 12px;}
+.ent_r .ent_form .news_d .news_ul li span .entr_lj{width: 140px;height: 35px;line-height: 35px;text-align: center;color: #FFF;border-radius: 2px;letter-spacing: 1px;border: medium none;background:#BE0929;}
+.ent_r .ent_form .news_d .news_ul li span div{margin-left:5px;float:right}
+.ent_r .ent_form .news_d .news_ul li span .ent_dc{color:green;margin:0px 0 10px -175px;}
+
+/*****忘记密码*****/
+
+.ent_r .ent_form .news_d .news_ul li div{position: relative;}
+.ent_r .ent_form .news_d .news_ul li div .ent_a1{position: absolute;left:0px;top:10px;font-size:12px;color:#333;}
+.ent_r .ent_form .news_d .news_ul li div .ent_sp{position: absolute;left:28px;top:10px;}
+.ent_r .ent_form .news_d .news_ul li div .ent_a2{position: absolute;left:35px;top:10px;font-size:12px;color:#333;}
+
+
+/******登录右下****/
+.ent_x{margin-bottom: 15px;width: 528px;margin-top: 30px;float: left;}
+.ent_x .ent_xl{height: 29px;line-height: 29px;float: left;font-size:12px;}
+.ent_x .ent_xx{float: left;}
+.ent_x .ent_xx a .ent_xsp1{width: 97px;height: 29px;margin-right: 10px;float: left;background: url(../images/ent/NEWS_login.png)no-repeat 0 -528px;}
+.ent_x .ent_xx a .ent_xsp2{width: 97px;height: 29px;margin-right: 10px;float: left;background: url(../images/ent/NEWS_login.png)no-repeat -111px -528px;}
+.ent_x .ent_xx a .ent_xsp3{width: 97px;height: 29px;margin-right: 10px;float: left;background: url(../images/ent/NEWS_login.png)no-repeat -222px -528px;}
+.ent_x .ent_xx a .ent_xsp4{width: 97px;height: 29px;margin-right: 10px;float: left;background: url(../images/ent/NEWS_login.png)no-repeat -333px -528px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
